@@ -19,7 +19,7 @@
 # include <stdio.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 32
+#  define BUFFER_SIZE 42
 # endif
 
 char	*get_next_line(int fd);
