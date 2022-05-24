@@ -110,6 +110,7 @@ char	*ft_getrest(char *full_str)
 	while (full_str[i])
 		restof[j++] = full_str[i++];
 	restof[j] = '\0';
+	//These last two command lines looks like wrong. So, I might need to update these two lines in repo. I will review it in 02.06.2022
 	free(full_str);
 	return (restof);
 }
